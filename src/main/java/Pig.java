@@ -13,6 +13,8 @@ public class Pig implements Domesticatable, Tradable {
         return 5;
     }
 
+    // hello
+
     @Override
     public String toString(){
         String id = super.toString();
