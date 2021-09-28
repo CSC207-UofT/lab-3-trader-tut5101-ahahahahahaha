@@ -96,8 +96,13 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
-                // TODO: Add Tradable objects here!
+                new Horse(),
+                new Newfies("Blue"),
+                new Newfies("Red"),
+                new Chihuahua("Purple"),
+                new Chihuahua("Rainbow"),
+                new Chihuahua("Black"),
+                new Newfies("platinum")
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
